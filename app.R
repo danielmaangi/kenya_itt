@@ -18,7 +18,7 @@ thematic_shiny()
 ui <- page_sidebar(
 
   # Add github link
-  ribbon_css("https://github.com/rstudio/demo-co/tree/main/evals-analysis-app"),
+  # ribbon_css("https://github.com/rstudio/demo-co/tree/main/evals-analysis-app"),
 
   # Set CSS theme
   theme = bs_theme(bootswatch = "darkly",
@@ -27,7 +27,7 @@ ui <- page_sidebar(
                    success ="#86C7ED"),
 
   # Add title
-  title = "Effectiveness of DemoCo App Free Trial by Customer Segment",
+  title = "Indicator Tracking Tool",
 
   # Add sidebar elements
   sidebar = sidebar(title = "Select a segment of data to view",
